@@ -79,6 +79,7 @@ function my_keydown(e)
 			console.log("right");
 		}
 	}
+}
 
 function up()
 {
@@ -100,6 +101,7 @@ function down(){
 		console.log("When down key is pressed, X = " + ball_x + ", Y = " + ball_y);
 		canvas.remove(ball_obj);
 		new_image();
+		}
 }
 
 function left(){
@@ -109,6 +111,7 @@ function left(){
 		console.log("When left key is pressed, X = " + ball_x + ", Y = " + ball_y);
 		canvas.remove(ball_obj);
 		new_image();
+	}
 }
 
 function right(){
